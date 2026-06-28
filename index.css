@@ -1,0 +1,72 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container for dice roller */
+#container {
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Input field */
+#numofdice {
+    width: 60px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Button styling */
+button {
+    background: #0078d7;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #005a9e;
+}
+
+/* Dice result text */
+#diceresult {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Dice images layout */
+#diceimages {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#diceimages img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #fafafa;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
